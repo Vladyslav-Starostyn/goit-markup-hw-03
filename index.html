@@ -6,43 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>goit-markup-hw-03</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <title>goit-markup-hw-03</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
-      <a class="logo-header link" href=""
-        >Web<span class="logo-black">Studio</span></a
-      >
-      <nav class="header-nav">
-        <ul class="header-list list">
-          <li class="header-item">
-            <a class="header-link link current" href="">Студия</a>
+      <div class="conteiner header-conteiner">
+        <a class="logo-header link" href=""
+          >Web<span class="logo-black">Studio</span></a
+        >
+        <nav class="header-nav">
+          <ul class="header-list list">
+            <li class="header-item">
+              <a class="header-link link current" href="">Студия</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-secondlist list">
+          <li class="header-seconditem">
+            <a class="header-secondlink link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li class="header-item">
-            <a class="header-link link" href="./portfolio.html">Портфолио</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link link" href="">Контакты</a>
+          <li class="header-seconditem">
+            <a class="header-secondlink link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
-      </nav>
-      <ul class="header-secondlist list">
-        <li>
-          <a class="header-secondlink link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="header-secondlink link" href="tel:+380961111111"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
       <!-- section-1 -->
@@ -52,117 +58,123 @@
       </section>
       <!-- section-2 -->
       <section class="dignity">
-        <h2 class="visually-hidden">Достоинства</h2>
-        <ul class="dignity-list list">
-          <li class="dignity-item">
-            <h3 class="dignity-subtitle">Внимание к деталям</h3>
-            <p class="dignity-text">
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
-            </p>
-          </li>
-          <li class="dignity-item">
-            <h3 class="dignity-subtitle">Пунктуальность</h3>
-            <p class="dignity-text">
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
-            </p>
-          </li>
-          <li class="dignity-item">
-            <h3 class="dignity-subtitle">Планирование</h3>
-            <p class="dignity-text">
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
-            </p>
-          </li>
-          <li class="dignity-subitem">
-            <h3 class="dignity-subtitle">Современные технологии</h3>
-            <p class="dignity-text">
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
-            </p>
-          </li>
-        </ul>
+        <div class="conteiner">
+          <h2 class="visually-hidden">Достоинства</h2>
+          <ul class="dignity-list list">
+            <li class="dignity-item">
+              <h3 class="dignity-subtitle">Внимание к деталям</h3>
+              <p class="dignity-text">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li class="dignity-item">
+              <h3 class="dignity-subtitle">Пунктуальность</h3>
+              <p class="dignity-text">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li class="dignity-item">
+              <h3 class="dignity-subtitle">Планирование</h3>
+              <p class="dignity-text">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li class="dignity-subitem">
+              <h3 class="dignity-subtitle">Современные технологии</h3>
+              <p class="dignity-text">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- section-3 -->
       <section class="activity">
-        <h2 class="activyti-title">Чем мы занимаемся</h2>
-        <ul class="activyti-list list">
-          <li>
-            <img
-              src="./imedges/studio/img-1.jpg"
-              alt="клавиатура и монитор"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="./imedges/studio/img-2.jpg"
-              alt="клавиатура и монитор"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="./imedges/studio/img-3.jpg"
-              alt="клавиатура и монитор"
-              width="370"
-              height="294"
-            />
-          </li>
-        </ul>
+        <div class="conteiner">
+          <h2 class="activyti-title">Чем мы занимаемся</h2>
+          <ul class="activyti-list list">
+            <li>
+              <img
+                src="./imedges/studio/img-1.jpg"
+                alt="клавиатура и монитор"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li>
+              <img
+                src="./imedges/studio/img-2.jpg"
+                alt="клавиатура и монитор"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li>
+              <img
+                src="./imedges/studio/img-3.jpg"
+                alt="клавиатура и монитор"
+                width="370"
+                height="294"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- section-4 -->
       <section class="command">
-        <h2 class="command-title">Наша команда</h2>
-        <ul class="command-list list">
-          <li class="command-item">
-            <img
-              src="./imedges/studio/img-4.jpg"
-              alt="мужчина"
-              width="270"
-              height="260"
-            />
-            <h3 class="command-subtitle">Игорь Демьяненко</h3>
-            <p class="command-text">Product Designer</p>
-          </li>
-          <li class="command-item">
-            <img
-              src="./imedges/studio/img-5.jpg"
-              alt="женщина"
-              width="270"
-              height="260"
-            />
-            <h3 class="command-subtitle">Ольга Репина</h3>
-            <p class="command-text">Frontend Developer</p>
-          </li>
-          <li class="command-item">
-            <img
-              src="./imedges/studio/img-6.jpg"
-              alt="мужчина"
-              width="270"
-              height="260"
-            />
-            <h3 class="command-subtitle">Николай Тарасов</h3>
-            <p class="command-text">Marketing</p>
-          </li>
-          <li class="command-item">
-            <img
-              src="./imedges/studio/img-7.jpg"
-              alt="мужчина"
-              width="270"
-              height="260"
-            />
-            <h3 class="command-subtitle">Михаил Ермаков</h3>
-            <p class="command-text">UI Designer</p>
-          </li>
-        </ul>
+        <div class="conteiner">
+          <h2 class="command-title">Наша команда</h2>
+          <ul class="command-list list">
+            <li class="command-item">
+              <img
+                src="./imedges/studio/img-4.jpg"
+                alt="мужчина"
+                width="270"
+                height="260"
+              />
+              <h3 class="command-subtitle">Игорь Демьяненко</h3>
+              <p class="command-text">Product Designer</p>
+            </li>
+            <li class="command-item">
+              <img
+                src="./imedges/studio/img-5.jpg"
+                alt="женщина"
+                width="270"
+                height="260"
+              />
+              <h3 class="command-subtitle">Ольга Репина</h3>
+              <p class="command-text">Frontend Developer</p>
+            </li>
+            <li class="command-item">
+              <img
+                src="./imedges/studio/img-6.jpg"
+                alt="мужчина"
+                width="270"
+                height="260"
+              />
+              <h3 class="command-subtitle">Николай Тарасов</h3>
+              <p class="command-text">Marketing</p>
+            </li>
+            <li class="command-item">
+              <img
+                src="./imedges/studio/img-7.jpg"
+                alt="мужчина"
+                width="270"
+                height="260"
+              />
+              <h3 class="command-subtitle">Михаил Ермаков</h3>
+              <p class="command-text">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
-      <address class="footer-address">
+      <address class="footer-address conteiner">
         <a class="logo-footer link" href=""
           >Web<span class="logo-white">Studio</span></a
         >

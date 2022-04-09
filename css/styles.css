@@ -4,6 +4,20 @@
     --color-text: #757575;
     --accent-color:#2196F3;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+ul,
+ol {
+    margin: 0;
+    padding-left: 0;
+}
 
 body {
     font-family: "Roboto", sans-serif;
@@ -15,12 +29,27 @@ body {
 .link {
     text-decoration: none;
 }
+.conteiner {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+   outline: 1px solid black;
+}
 /*----------- Header---------*/
 
 .header {
     background-color: #FFFFFF;
 }
+.header-conteiner {
+    display: flex;
+    align-items: center;
+}
+
 .logo-header {
+    margin-right: 93px;
+
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -32,21 +61,42 @@ body {
 .logo-black {
     color: #000000;   
 }
+.header-list {
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 .header-list .link.current {
     color: var(--accent-color);
 }
+ .header-item + .header-item {
+    margin-left: 50px;
+}
 .header-link {
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.43;
     letter-spacing: 0.02em;
-    color: var(--color-title)
+    color: var(--color-title);
 }
 .header-link:hover,
 .header-link:focus {
     color: var(--accent-color);
 }
+.header-secondlist {
+    display: flex;
+    margin-left: auto;
+}
+.header-seconditem + .header-seconditem {
+    margin-left: 50px;
+}
 .header-secondlink {
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.43;
@@ -61,21 +111,22 @@ body {
 
 .hero {
     background-color: var(--footer-color);
+    text-align: center;
 }
 .hero-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-bottom: 30px;
 }
 .hero-button {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
+   
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
@@ -111,7 +162,8 @@ background-color: #188CE8;
     line-height: 1.36;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--color-title)
+    color: var(--color-title);
+    margin-bottom: 10px;
 }
 .dignity-text {
     font-size: 14px;
@@ -126,7 +178,9 @@ background-color: #188CE8;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--color-title)
+    color: var(--color-title);
+    margin-bottom: 50px;
+    
 }
 /*------------section-4-----------*/
 
@@ -139,7 +193,8 @@ background-color: #188CE8;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--color-title)
+    color: var(--color-title);
+    margin-bottom: 50px;
 }
 .command-subtitle {
     font-weight: 500;
