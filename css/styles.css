@@ -237,8 +237,8 @@ background-color: #188CE8;
 }
 .footer-address {
     font-style: normal;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .footer-address-link {
     font-size: 14px;
@@ -251,10 +251,10 @@ background-color: #188CE8;
 color: var(--accent-color);
 }
 .footer-item:first-child {
-    margin-top: 20px;
+    margin-top: 18px;
 }
 .footer-item + .footer-item {
-    margin-top: 9px;
+    margin-top: 8px;
 }
     .footer-link {
     font-size: 14px;
