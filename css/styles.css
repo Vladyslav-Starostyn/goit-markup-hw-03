@@ -18,7 +18,9 @@ ol {
     margin: 0;
     padding-left: 0;
 }
-
+img {
+    display: block;
+}
 body {
     font-family: "Roboto", sans-serif;
     color: var(--color-text);
@@ -63,8 +65,8 @@ body {
 }
 .header-list {
     display: flex;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 .header-list .link.current {
     color: var(--accent-color);
@@ -235,6 +237,8 @@ background-color: #188CE8;
 }
 .footer-address {
     font-style: normal;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .footer-address-link {
     font-size: 14px;
@@ -245,6 +249,12 @@ background-color: #188CE8;
 .footer-address-link:hover,
 .footer-address-link:focus {
 color: var(--accent-color);
+}
+.footer-item:first-child {
+    margin-top: 20px;
+}
+.footer-item + .footer-item {
+    margin-top: 9px;
 }
     .footer-link {
     font-size: 14px;
