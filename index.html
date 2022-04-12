@@ -53,8 +53,12 @@
     <main>
       <!-- section-1 -->
       <section class="hero section">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <a class="hero-button link" href="" type="button">Заказать услугу</a>
+        <div class="conteiner">
+          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+          <button class="hero-button link" type="button">
+            Заказать услугу
+          </button>
+        </div>
       </section>
       <!-- section-2 -->
       <section class="section">
@@ -93,7 +97,7 @@
         </div>
       </section>
       <!-- section-3 -->
-      <section class="section">
+      <section class="section activyti">
         <div class="conteiner">
           <h2 class="activyti-title">Чем мы занимаемся</h2>
           <ul class="activyti-list list">
@@ -136,8 +140,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="command-subtitle">Игорь Демьяненко</h3>
-              <p class="command-text">Product Designer</p>
+              <div class="command-aside">
+                <h3 class="command-subtitle">Игорь Демьяненко</h3>
+                <p class="command-text">Product Designer</p>
+              </div>
             </li>
             <li class="command-item">
               <img
@@ -146,8 +152,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="command-subtitle">Ольга Репина</h3>
-              <p class="command-text">Frontend Developer</p>
+              <div class="command-aside">
+                <h3 class="command-subtitle">Ольга Репина</h3>
+                <p class="command-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="command-item">
               <img
@@ -156,8 +164,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="command-subtitle">Николай Тарасов</h3>
-              <p class="command-text">Marketing</p>
+              <div class="command-aside">
+                <h3 class="command-subtitle">Николай Тарасов</h3>
+                <p class="command-text">Marketing</p>
+              </div>
             </li>
             <li class="command-item">
               <img
@@ -166,39 +176,43 @@
                 width="270"
                 height="260"
               />
-              <h3 class="command-subtitle">Михаил Ермаков</h3>
-              <p class="command-text">UI Designer</p>
+              <div class="command-aside">
+                <h3 class="command-subtitle">Михаил Ермаков</h3>
+                <p class="command-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
     <footer class="footer">
-      <address class="footer-address conteiner">
+      <div class="conteiner">
         <a class="logo-footer link" href=""
           >Web<span class="logo-white">Studio</span></a
         >
-        <ul class="footer-list list">
-          <li class="footer-item">
-            <a
-              class="footer-address-link link"
-              href="https://goo.gl/maps/mEJsGeLwNFtNo4VW8"
-              target="blank"
-              >г. Киев, пр-т Леси Украинки, 26</a
-            >
-          </li>
-          <li class="footer-item">
-            <a class="footer-link link" href="mailto:info@example.com"
-              >info@example.com</a
-            >
-          </li>
-          <li class="footer-item">
-            <a class="footer-link link" href="tel:+380991111111"
-              >+38 099 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
+        <address class="footer-address"></address>
+          <ul class="footer-list list">
+            <li class="footer-item">
+              <a
+                class="footer-address-link link"
+                href="https://goo.gl/maps/mEJsGeLwNFtNo4VW8"
+                target="blank"
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
+            </li>
+            <li class="footer-item">
+              <a class="footer-link link" href="mailto:info@example.com"
+                >info@example.com</a
+              >
+            </li>
+            <li class="footer-item">
+              <a class="footer-link link" href="tel:+380991111111"
+                >+38 099 111 11 11</a
+              >
+            </li>
+         </ul>
+       </address>
+      </div>
     </footer>
   </body>
 </html>
